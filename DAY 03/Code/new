@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a;
+	cin>>a;
+	int size_int = sizeof(a);
+	cout<<size_int;
+
+	
+
+	long b;
+	cin>>b;
+	int size_long = sizeof(b);
+	cout<<size_long;
+
+	float f;
+	cin>>f;
+	int size_float = sizeof(f);
+	cout<<size_float;
+	
+	double d;
+	cin>>d;
+	int size_double = sizeof(d);
+	cout<<size_double;
+
+	char ch;
+	cin>>ch;
+	int size_char = sizeof(ch);
+	cout<<size_char;
+}
